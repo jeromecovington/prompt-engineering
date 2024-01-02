@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/jeromecovington/prompt-engineering/issues"
   },
-  "homepage": "https://github.com/jeromecovington/prompt-engineering#readme"
+  "homepage": "https://github.com/jeromecovington/prompt-engineering#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.24.1"
+  }
 }
