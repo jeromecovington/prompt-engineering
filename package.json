@@ -1,0 +1,29 @@
+{
+  "name": "prompt-engineering",
+  "version": "1.0.0",
+  "description": "Node.js port of the Python examples in the DeepLearning.AI course ChatGPT Prompt Engineering for Developers",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeromecovington/prompt-engineering.git"
+  },
+  "keywords": [
+    "Node.js",
+    "DeepLearning.AI",
+    "ChatGPT",
+    "Prompt",
+    "Engineering"
+  ],
+  "author": "Jerome Covington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeromecovington/prompt-engineering/issues"
+  },
+  "homepage": "https://github.com/jeromecovington/prompt-engineering#readme"
+}
