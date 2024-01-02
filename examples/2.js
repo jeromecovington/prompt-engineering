@@ -20,3 +20,7 @@ async function getCompletion(prompt, model = 'gpt-3.5-turbo') {
         return null;
     }
 }
+
+module.exports = {
+    getCompletion
+}
