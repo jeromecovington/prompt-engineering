@@ -7,7 +7,8 @@
     "example": "examples"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard",
+    "lint:fix": "standard --fix"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,8 @@
   "dependencies": {
     "dotenv": "^16.3.1",
     "openai": "^4.24.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
   }
 }
