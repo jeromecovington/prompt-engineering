@@ -1,6 +1,7 @@
 const { getCompletion } = require('../lib/utils')
 
-const text = `
+const main = async () => {
+  const text = `
 You should express what you want a model to do by
 providing instructions that are as clear and
 specific as you can possibly make them.
@@ -13,12 +14,14 @@ and context for the model, which can lead to
 more detailed and relevant outputs.
 `
 
-const prompt = `
+  const prompt = `
 Summarize the text delimited by triple backticks
 into a single sentence.
 \`\`\`${text}\`\`\`
 `
+  const completion = await getCompletion(prompt)
 
-const completion = await getCompletion(prompt)
+  console.log(completion)
+}
 
-console.log(completion)
+main()
