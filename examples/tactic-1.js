@@ -1,3 +1,5 @@
+// Tactic 1: Use delimiters to clearly indicate distinct parts of the input
+
 const { getCompletion } = require('../lib/utils')
 
 const main = async () => {
