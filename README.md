@@ -10,7 +10,7 @@ correcting the result.
 ## Setup
 
 1. Clone this repo.
-2. Sign up for an account OpenAI account.
+2. Sign up for an OpenAI account.
 3. Fund it with a minimal amount credits. You can set a monthly limit.
 4. Create an OpenAI API key and copy it to a file `.env` at the root of this repo, using the `.env.example` for guidance.
 5. Install Node.js >= v18.
