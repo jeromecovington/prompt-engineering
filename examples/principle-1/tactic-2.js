@@ -1,6 +1,6 @@
-// Tactic 2: Ask for a structured output
+// Tactic 2: Ask for a structured output.
 
-const { getCompletion } = require('../lib/utils')
+const { getCompletion } = require('../../lib/utils')
 
 const main = async () => {
   const prompt = `

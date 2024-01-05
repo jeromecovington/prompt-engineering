@@ -1,6 +1,6 @@
-// Tactic 4: "Few-shot" prompting
+// Tactic 4: "Few-shot" prompting.
 
-const { getCompletion } = require('../lib/utils')
+const { getCompletion } = require('../../lib/utils')
 
 const main = async () => {
   const prompt = `

@@ -1,6 +1,6 @@
-// Tactic 3: Ask the model to check whether conditions are satisfied
+// Tactic 3: Ask the model to check whether conditions are satisfied.
 
-const { getCompletion } = require('../lib/utils')
+const { getCompletion } = require('../../lib/utils')
 
 const main = async () => {
   const text = `
