@@ -15,4 +15,4 @@ correcting the result.
 4. Create an OpenAI API key and copy it to a file `.env` at the root of this repo, using the `.env.example` for guidance.
 5. Install Node.js >= v18.
 6. Run `npm install`.
-7. Run each example, e.g. `node examples/prompt-1.js`
+7. Run each example, e.g. `node examples/tactic-1.js`
