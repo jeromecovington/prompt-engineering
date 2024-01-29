@@ -25,7 +25,12 @@ satisfied with their job. The government has pledged to
 address the concerns raised by employees in the survey and
 work towards improving job satisfaction across all departments.
 `
+const topics = [
+    "nasa", "local government", "engineering",
+    "employee satisfaction", "federal government"
+]
 
 module.exports = {
-  story
+  story,
+  topics
 }
