@@ -11,7 +11,7 @@ is delimited with triple backticks.
 
 Give your answer as list with 0 or 1 for each topic.
 
-List of topics: ${topics.join(", ")}
+List of topics: ${topics.join(', ')}
 
 Text sample: \`\`\`${story}\`\`\`
 `
